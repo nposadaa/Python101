@@ -11,6 +11,7 @@ print('10 > 5 and 5 < 10 =>', 10 > 5 and 5 < 10)
 print('10 < 5 and 5 > 10 =>', 10 < 5 and 5 > 10)
 print('10 < 5 and 5 < 10 =>', 10 < 5 and 5 < 10)
 
+# OR
 print('\n','*' * 10,'\n')
 print('''Example of how OR works by
 comparing to booleans. OR will be always True as long something is true:''','\n')
