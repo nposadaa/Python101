@@ -1,18 +1,28 @@
-#This is my new code for a python program.
+# Clase 20: proyecto piedra papel o tijera
 
-print("hello World! Python")
+user_option = input('piedra, papel o tijera => ')
+pc_option = 'piedra'
 
-print(12 + 5)
-print(10 - 5)
-print(2 * 3)
-print(8 / 2)
-
-"""
-comentario 
-en varias línease
-"""
-
-'''
-Hace lo mismo que triple
-comillas.
-'''
+if user_option == pc_option:
+  print('Empate!')
+elif user_option == 'piedra':
+  if pc_option == 'tijera':
+    print('piedra gana a Tijera!')
+    print('user ganó!')
+  else:
+    print('papel gana a piedra')
+    print('PC ganó!')
+elif user_option == 'papel':
+  if pc_option == 'piedra':
+    print('papel gana a piedra')
+    print('user ganó!')
+  else:
+    print('tijera gana a papel')
+    print('PC ganó!')
+elif user_option == 'tijera':
+  if pc_option == 'papel':
+    print('tijera gana a papel')
+    print('user ganó!')
+  else:
+    print('piedra gana a tijera')
+    print('PC ganó!')
