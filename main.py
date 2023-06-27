@@ -1,6 +1,7 @@
 # Clase 20: proyecto piedra papel o tijera
 
 user_option = input('piedra, papel o tijera => ')
+user_option = user_option.lower()
 pc_option = 'piedra'
 
 if user_option == pc_option:
